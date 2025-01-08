@@ -1,0 +1,148 @@
+.thumb{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 16%;
+    left: 19%;
+    padding: 10px;
+    
+    
+}
+
+.img{
+    width: 408px;
+    height: 229px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.info{
+
+    height: 50px;
+    width: 250px;
+    position: relative;
+    bottom: 230px;
+
+}
+
+.thambnail{
+    width: 250px;
+}
+.timespane{
+    position: relative;
+    top: -30px;
+    left: 270px;
+    
+}
+
+.info{
+    padding: 10px;
+}
+.titl{
+    width: bold;
+
+    font-size: 18px;
+    position: absolute;
+    top: 220px;
+    left: 45px;
+   
+}
+
+.logo{
+    position: absolute;
+    top: 235px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.Channel_name{
+    position: absolute;
+    top: 225px;
+    left: 45px;
+}
+.view{
+    position: absolute;
+    top: 245px;
+    left: 45px;
+    
+}
+
+.thumb2{
+    height: 200px;
+    width: 353px;
+    position: absolute;
+    top: 16%;
+    left: 45.5%;
+    padding: 10px;
+
+}
+.thumb3{
+    height: 200px;
+    width: 353px;
+    position: absolute;
+    top: 59%;
+    left: 19%;
+    padding: 10px;
+  
+}
+.thumb4{
+    height: 200px;
+    width: 353px;
+    position: absolute;
+    top: 59%;
+    left: 45.5%;
+    padding: 10px;
+   
+}
+.thumb5{
+    height: 200px;
+    width: 353px;
+    position: absolute;
+    top: 16%;
+    left: 72%;
+    padding: 10px;
+  
+}
+
+.thumb6{
+    height: 200px;
+    width: 353px;
+    position: absolute;
+    top: 59%;
+    left: 72%;
+    padding: 10px;
+  
+}
+
+.thumb7{
+    height: 200px;
+    width: 353px;
+    position: absolute;
+    top: 16%;
+    left: 72%;
+    padding: 10px;
+}
+.thumb8{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 16%;
+    left: 72%;
+    padding: 10px;
+}
+
+.thumb9{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 106%;
+    left: 72%;
+    padding: 10px;
+}
+
+
+.thumb:hover{
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
