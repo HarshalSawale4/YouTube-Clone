@@ -1,0 +1,38 @@
+
+.shorts-section {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .shorts-carousel {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .short {
+    flex-shrink: 0;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .short-video {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+ 
+  }
+  
+  .short-title {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+  }
+.shorts-carousel{
+    position: relative;
+    left: 40%;
+    top: 20%;
+}
