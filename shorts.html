@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="short.css">
+</head>
+<body>
+    <main>
+        <div class="shorts-section">
+            <h2>Shorts</h2>
+            <div class="shorts-carousel">
+              <!-- Dynamically render Shorts here -->
+              <div class="short">
+                <video src="video.mp4.mp4" class="short-video" autoplay loop></video>
+                <p class="short-title">Short Video Title</p>
+              </div>
+              <!-- Repeat for other Shorts -->
+            </div>
+          </div>
+          
+    </main>
+
+
+
+    <script>
+        const videos = document.querySelectorAll('.short-video');
+videos.forEach(video => {
+  video.addEventListener('ended', function () {
+    let nextVideo = video.nextElementSibling;
+    if (nextVideo && nextVideo.classList.contains('short-video')) {
+      nextVideo.play();
+    }
+  });
+});
+
+    </script>
+</body>
+</html>
