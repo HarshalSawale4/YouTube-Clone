@@ -1,0 +1,50 @@
+.ypanel{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+}
+.tiname{
+    font-size: 40px;
+    margin-top:-10px;
+    font-weight: bold;
+}
+.harstech{
+    margin-left: -305px;
+    margin-top: 40px;
+
+}
+.accswi{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 29px;
+   width: 121.29px;
+   border: 2px solid black;   
+   border-radius: 10px;
+   margin-top: 90px;
+   margin-left: -280px;
+   background-color: rgb(218, 218, 218);
+}
+.googleac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+    width: 121.29px;
+    border: 2px solid black;
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: -30px;
+    
+}
+.googleac:hover{
+    background-color: rgb(181, 180, 180);
+    transition: 0s;
+    
+}
+.accswi:hover{
+    background-color: rgb(181, 180, 180);
+    transition: 0s;
+    
+}
