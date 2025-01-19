@@ -167,3 +167,87 @@
     background-color: #ccc;
     transition: 1s;
 }
+
+.visec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.didecs{
+    position: relative;
+    top: 250px;
+}
+
+.titname{
+    margin-top: 0.1px;
+}
+.cname{
+    margin-top: -12px;
+}
+
+.viewd{
+    margin-top: -13px;
+}
+
+.time{
+    font-size: 11px;
+    color: white;
+    background-color: black;
+    height: 20px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 85px;
+    left: 150px;
+}
+
+.pl{
+    position: absolute;
+    top: 700px;
+}
+
+#play{
+    margin-top: 300px;
+    margin-left: 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#rece{
+    margin-top: -43px;
+    margin-left: 160px;
+    color: #b6b4b4;
+}
+
+.pl{
+    position: absolute;
+    left: 80px;
+    top: 650px;
+    
+}
+
+#plsec,#likevi{
+    margin: 7px;
+
+}
+#plsec{
+    font-weight: bold;
+    font-size: 13px;
+    color: #747373;
+}
+#plv{
+    background-color: black;
+    color: white;
+    height: 19px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    position: absolute;
+    top: 80px;
+    left: 140px;
+}
