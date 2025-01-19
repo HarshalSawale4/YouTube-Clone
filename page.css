@@ -64,11 +64,9 @@
     height: 750px; /* Adjust the height to create a scrollable area */
     overflow-y: scroll;  /* Enables vertical scrolling */
     padding: 20px;
-     /* Optional: adds a border around the panel */
-  /* Optional: sets a background color */
+
 }
 
-/* Optional: styling for the links */
 .spanel a {
     text-decoration: none;
     color: #000;
@@ -76,7 +74,6 @@
     padding: 5px 0;
 }
 
-/* Optional: add hover effect for links */
 .spanel a:hover {
     color: #007bff;
 }
@@ -297,3 +294,10 @@ img{
   border-radius: 40px;
   
  }
+
+ .logo9{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+ }
+
