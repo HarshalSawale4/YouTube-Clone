@@ -1,0 +1,38 @@
+.lisec{
+    width: 416px;
+    height: 700px;
+    background-color: cyan;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#img1{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+#secli{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#chna{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#plbutt,#shubutt{
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: red;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#shubutt{
+    margin-top: -46px;
+    margin-left: 220px;
+}
