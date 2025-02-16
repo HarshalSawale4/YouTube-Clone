@@ -178,6 +178,7 @@ img{
 
   .info {
     flex: 1;
+    color: black;
   }
 
   .title {
@@ -301,3 +302,6 @@ img{
   border-radius: 50%;
  }
 
+.titl{
+  width: 400px;
+}
