@@ -6,6 +6,7 @@
     <title>Youtube Clone</title>
     <link rel="stylesheet" href="page.css">
     <link rel="stylesheet" href="videocard.css">
+
     <link rel="stylesheet" href="">
 </head>
 <body>
@@ -39,9 +40,9 @@
            <li><a href=""><img src="home.png" height="20px"> Home</a></li>
            <li><a href="shorts.html"><img src="hangout_video_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" height="20px"> Short</a></li>
            <li><a href="subscription.html"><img src="subscriptions_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24 (1).png" height="20px"> Subscription</a></li>
-           <li><a href="you.html"><img src="history_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="History" height="20p"> History</a></li>
-           <li><a href=""><img src="playlist_add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"  height="20px"> Playlist</a></li>
-           <li><a href=""><img src="hangout_video_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" height="20p"> Your Video</a></li>
+           <li><a href=""><img src="history_2_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt="History" height="20p"> History</a></li>
+           <li><a href="code.html"><img src="playlist_add_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"  height="20px"> Playlist</a></li>
+           <li><a href="video.html"><img src="hangout_video_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" height="20p"> Your Video</a></li>
            <li><a href=""><img src="add_circle_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" height="20p" alt=""> Watch Later</a></li>
            <li><a href="like.html"><img src="thumb_up_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png"height="20p" alt=""> Liked Video</a></li></ul>
            <br>
@@ -69,92 +70,58 @@
            </ul>
         </div>
 
-
-        <div class="thumb" a href="video.html"></a>
-            <div class="thambnail">
-                <img  class="img" src="ets2.png"  alt="">
-                <span class="timespane">21:30</span>
-            </div>
-            <div class="info">
-                <img class="logo" src="home.png" alt="logo">
-                <h4 class="titl">Welcome to our channel</h4>
-                <p class="Channel_name">Channel Name</p>
-                <p class="view">1.2cr  2 Days ago</p>
-
-            </div>
+        <div class="video-grid">
+            <!-- Repeat this block for each video -->
+            <a href="video.html" class="video-card">
+                <div class="thambnail">
+                    <img class="img" src="codewi.jpg" alt="Welcome to our channel">
+                    <span class="timespane">21:30</span>
+                </div>
+                <div class="info">
+                    <img class="logo" src="home.png" alt="Channel logo">
+                    <div>
+                        <h4 class="titl">Welcome to our channel</h4>
+                        <p class="Channel_name">Channel Name</p>
+                        <p class="view">1.2cr • 2 Days ago</p>
+                    </div>
+                </div>
+            </a>
+        
+            <!-- Video 2 -->
+            <a href="video.html" class="video-card">
+                <div class="thambnail">
+                    <img class="img" src="tEAeqmQDIiU-HD.jpg" alt="Building a SaaS">
+                    <span class="timespane">21:30</span>
+                </div>
+                <div class="info">
+                    <img class="logo" src="home.png" alt="Channel logo">
+                    <div>
+                        <h4 class="titl">Building a SaaS in 48 hours</h4>
+                        <p class="Channel_name">CFrederik Brandt</p>
+                        <p class="view">1.2cr • 2 Days ago</p>
+                    </div>
+                </div>
+            </a>
+        
+            <!-- Video 3 -->
+            <a href="video.html" class="video-card">
+                <div class="thambnail">
+                    <img class="img" src="9VvExifFdBE-HD.jpg" alt="Deepseek cheater">
+                    <span class="timespane">21:30</span>
+                </div>
+                <div class="info">
+                    <img class="logo" src="home.png" alt="Channel logo">
+                    <div>
+                        <h4 class="titl">Deepseek cheater (Exposed)</h4>
+                        <p class="Channel_name">CodeWithHarry</p>
+                        <p class="view">1.2cr • 2 Days ago</p>
+                    </div>
+                </div>
+            </a>
+        
+            <!-- Continue with remaining videos... -->
         </div>
-
-        <div class="thumb2">
-            <div class="thambnail">
-                <img class="img" src="ets2.png" width="300px" height="2000px" alt="">
-                <span class="timespane">21:30</span>
-            </div>
-            <div class="info">
-                <img class="logo" src="home.png" alt="logo">
-                <h4 class="titl">Welcome to our channel</h4>
-                <p class="Channel_name">Channel Name</p>
-                <p class="view">1.2cr  2 Days ago</p>
-
-            </div>
-        </div>  
         
-        
-        <div class="thumb3">
-            <div class="thambnail">
-                <img class="img" src="ets2.png" width="217px" height="100px" alt="">
-                <span class="timespane">21:30</span>
-            </div>
-            <div class="info">
-                <img class="logo" src="home.png" alt="logo">
-                <h4 class="titl">Welcome to our channel</h4>
-                <p class="Channel_name">Channel Name</p>
-                <p class="view">1.2cr  2 Days ago</p>
-
-            </div>
-        </div>    
-
-        <div class="thumb4">
-            <div class="thambnail">
-                <img class="img" src="ets2.png" width="317px" height="200px" alt="">
-                <span class="timespane">21:30</span>
-            </div>
-            <div class="info">
-                <img class="logo" src="home.png" alt="logo">
-                <h4 class="titl">Welcome to our channel</h4>
-                <p class="Channel_name">Channel Name</p>
-                <p class="view">1.2cr  2 Days ago</p>
-
-            </div>
-        </div> 
-
-        <div class="thumb5">
-            <div class="thambnail">
-                <img class="img" src="ets2.png" width="317px" height="200px" alt="">
-                <span class="timespane">21:30</span>
-            </div>
-            <div class="info">
-                <img class="logo" src="home.png" alt="logo">
-                <h4 class="titl">Welcome to our channel</h4>
-                <p class="Channel_name">Channel Name</p>
-                <p class="view">1.2cr  2 Days ago</p>
-
-            </div>
-        </div> 
-
-        <div class="thumb6">
-            <div class="thambnail">
-                <img class="img" src="ets2.png" width="317px" height="200px" alt="">
-                <span class="timespane">21:30</span>
-            </div>
-            <div class="info">
-                <img class="logo" src="home.png" alt="logo">
-                <h4 class="titl">Welcome to our channel</h4>
-                <p class="Channel_name">Channel Name</p>
-                <p class="view">1.2cr  2 Days ago</p>
-
-            </div>
-        </div> 
-
 <!-- 
         <div class="thumb7">
             <div class="thambnail">
