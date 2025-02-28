@@ -1,16 +1,23 @@
 .video-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 0; /* Removes both row and column gaps */
     background-color: #ffffff;
-
-    max-width: 1600px;
+    max-width: 00px;
     margin: 0 auto;
+    row-gap: 20px;
+    margin-right: 1600px;
+    margin-top: 10px;
 }
 
 a{
     text-decoration: none;
 }
 .video-card {
+    width: 450px;
+    height: 290px;
+    line-height: 20px;
+    
     background: #ffffff;
     border-radius: 12px;
     overflow: hidden;
