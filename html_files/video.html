@@ -33,7 +33,9 @@
 
 
     <div>
-        <video src="..\assets\Euro Truck Simulator 2 2024-12-18 18-30-59.mp4" height="522px" width="800px" controls></video>
+      <iframe id="video-player" width="800" height="522" frameborder="0"
+    allowfullscreen></iframe>
+
     </div>
     <div class="se1">`
         <p id="p">All</p>
@@ -237,5 +239,41 @@
         <p id="sym">:</p>
         
     </div>
+
+    <script>
+      const API_KEY = 'YOUR_API_KEY_HERE'; // ✅ Replace with your YouTube Data API key
+
+    const params = new URLSearchParams(window.location.search);
+    const videoId = params.get("videoId");
+
+    if (videoId) {
+      // Set iframe source
+      document.getElementById("video-player").src = `https://www.youtube.com/embed/${videoId}`;
+
+      // Fetch video info from YouTube API
+      fetch(`https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id=${videoId}&key=${API_KEY}`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.items && data.items.length > 0) {
+            const videoData = data.items[0];
+            const snippet = videoData.snippet;
+            const stats = videoData.statistics;
+
+            document.getElementById("title").textContent = snippet.title;
+            document.getElementById("chname").textContent = snippet.channelTitle;
+            document.getElementById("views").textContent = `${stats.viewCount} views • ${new Date(snippet.publishedAt).toDateString()}`;
+          } else {
+            document.getElementById("title").textContent = "Video not found.";
+          }
+        })
+        .catch(err => {
+          console.error("Error fetching video data", err);
+          document.getElementById("title").textContent = "Failed to load video details.";
+        });
+    } else {
+      alert("No video ID found in URL.");
+    }
+</script>
+
 </body>
 </html>
